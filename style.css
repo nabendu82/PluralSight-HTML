@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  overflow: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 300;
+}
+
+#wrapper{
+  display: flex;
+}
+
+#left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0D0F12;
+  height: 100vh;
+}
+
+#signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+#signin form {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+#signin .logo {
+  margin-bottom: 8vh;
+}
+
+#signin .logo img {
+  width: 300px;
+}
+
+#signin label {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+#signin .text-input {
+  margin-bottom: 1.3rem;
+  width: 100%;
+  border-radius: 2px;
+  background: #0D0F12;
+  border: 1px solid #555;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  line-height: 1.3rem;
+}
+
+#signin .primary-btn {
+  width: 100%;
+}
+
+.primary-btn {
+  padding: 0.7rem 1rem;
+  height: 2.7rem;
+  display: block;
+  border: 0;
+  border-radius: 2px;
+  font-weight: 400;
+  background: #2F84BD;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.primary-btn:hover {
+  background-color: #1d73ac;
+}
+
+#signin .links a {
+  display: block;
+  color: #3DA0D6;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#signin .links a:hover{
+  text-decoration: underline;
+}
+
+#bar{
+  width: 80%;
+  background-color: hsla(0,0%,100%,.15);
+  margin-bottom: 1.2rem;
+}
+
+.secondary-btn {
+  padding: 0.7rem 1rem;
+  height: 2.7rem;
+  display: block;
+  border: none;
+  border-radius: 2px;
+  font-weight: 500;
+  background: #35373A;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.secondary-btn:hover {
+  background: #62666b;
+}
+
+#main-footer {
+  color: #AAABAC;
+  text-align: center;
+  font-size: 0.8rem;
+  max-width: 80%;
+  padding-top: 5rem;
+}
+
+#main-footer a {
+  color: #AAABAC;
+  text-decoration: underline;
+}
+
+#main-footer a:hover {
+  color: #3DA0D6;
+}
+
+#right{
+  flex: 1;
+  background: #000000;
+}
+
+
